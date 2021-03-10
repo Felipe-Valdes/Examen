@@ -1,8 +1,10 @@
+import java.util.Scanner;
+
 public class Estudiante extends AtributosEstudiante {
-
-public Estudiante(){
-    super();
-
+    public Estudiante(){
+        setRut();
+        setNombre();
+        setEmail();
 }
 
 
